@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- -----HEADER----- -->
+
+        <header>
+            <h1>GeeksforGeeks Survey Form</h1>
+        </header>
+          
+        <!-- -----MAIN----- -->
+        
+        <main>
+
+            <form>
+
+                <!-- -----Name/Email/Age----- -->
+
+                <div class="aplication">
+
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <br>
+
+                <label for="age">Age</label>
+                <br>
+                <input type="text" id="age" name="age" placeholder="Enter your age" required>
+                <br>
+
+                </div>
+                
+                <!-- -----selector----- -->
+
+                <div class="selector">
+
+                    <p>Which options best describes you?</p>
+                
+                <select>
+                    <optgroup>
+                         <option selected value="1">Student</option>
+                         <option value="2">Parents</option>
+                         <option value="3">Teacher</option>
+                    </optgroup>
+               </select><br>
+
+                </div>
+
+               <!-- -----RADIO----- -->
+
+               <div class="radio">
+
+                <label for="friend">Would you recommend GeeksforGeeks to a friend ?</label>
+                <br>
+                <input type="radio" id="friend" name="fav" value="YES">
+
+                <label for="friend">Yes</label>
+                <br>
+                <input type="radio" id="friend" name="fav" value="yes">
+
+                <label for="friend">No</label>
+                <br>
+                <input type="radio" id="friend" name="fav" value="yes">
+                <label for="friend">Maybe</label>
+                <br>
+
+               </div>
+                
+                <!-- -----CHECKBOX----- -->
+                
+                <div class="checkbox">
+
+                <p>Languages and Frameworks known [check all that apply] </p>
+                <input type="checkbox" id="languages" name="languages" value="C">
+                <label for="languages">C</label><br>
+
+                <input type="checkbox" id="languages2" name="languages2" value="Car">
+                <label for="languages2">C++</label><br>
+
+                <input type="checkbox" id="languages3" name="languages3" value="Boat">
+                <label for="languages3">C#</label><br>
+
+                <input type="checkbox" id="languages4" name="languages4" value="Boat">
+                <label for="languages4">Java</label><br>
+
+                <input type="checkbox" id="languages5" name="languages5" value="Boat">
+                <label for="languages5">Python</label><br>
+
+                <input type="checkbox" id="languages6" name="languages6" value="Boat">
+                <label for="languages6">Javascript</label><br>
+
+                <input type="checkbox" id="languages7" name="languages7" value="Boat">
+                <label for="languages7">React</label><br>
+
+                <input type="checkbox" id="languages8" name="languages8" value="Boat">
+                <label for="languages8">Angular</label><br>
+
+                <input type="checkbox" id="languages9" name="languages9" value="Boat">
+                <label for="languages9">Ojango</label><br>
+
+                <input type="checkbox" id="languages10" name="languages10" value="Boat">
+                <label for="languages10">Spring</label><br>
+
+                </div>
+
+                <!-- -----TEXT AREA----- -->
+
+                <div class="textare">
+
+                    <label for="area">Any comments of suggestions</label><br>
+                <textarea id="area" name="area"></textarea><br>
+
+                </div>
+
+                <!-- -----SUBMIT----- -->
+
+                <div class="submit">
+
+                    <input type="submit">
+
+                </div>
+                
+
+            </form>
+        </main>
+    </div>
+</body>
+</html>

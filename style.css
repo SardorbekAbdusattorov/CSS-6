@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: greenyellow;
+    max-width: 100%;
+}
+.container {
+background-color: aliceblue;
+width: 600px;
+margin: auto;
+}
+
+/* HEADER */
+header {
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+/* MAIN */
+
+main {
+    font-size: 20px;
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 100px;
+}
+
+/* <!-- -----Name/Email/Age----- --> */
+
+.aplication input {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 10px 0px;
+}
+
+/* <!-- -----selector----- --> */
+
+.selector p {
+    margin-top: 15px;
+}
+.selector select {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 10px 0px;
+}
+
+/* <!-- -----RADIO----- --> */
+
+.radio {
+    margin: 30px 0px;
+    line-height: 25px;
+}
+
+/* <!-- -----CHECKBOX----- --> */
+
+.checkbox {
+    line-height: 25px;
+}
+
+/* <!-- -----TEXT AREA----- --> */
+
+.textare {
+    margin-top: 20px;
+}
+textarea {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* <!-- -----SUBMIT----- --> */
+
+.submit input {
+    margin-top: 40px;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: greenyellow;
+}
